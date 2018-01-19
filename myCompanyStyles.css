@@ -1,0 +1,40 @@
+@font-face
+{
+	font-family: nolanCustomFont;
+	src: url( JotiOne-Regular.ttf );
+}
+
+*
+{
+	font-family: nolanCustomFont;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: green;
+}
+
+.new-wave
+{
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.metal
+{
+	color: red;
+}
+
+.british
+{
+	color: green;
+}
+
+#erasure
+{
+	font-style: italic;
+	color: yellow;
+}
+
+#iron-maiden
+{
+	text-decoration: overline;
+}
