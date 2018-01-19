@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Signup Form</title>
+</head>
+<body>
+
+<h2>New User Signup Form</h2>
+
+<form action="processForm.php">
+
+	<label for="firstName">First Name: </label>
+	<input type="text" tabindex="1" name="firstName" id="firstName" autofocus="autofocus" maxlength="20" size="30" placeholder="Your First Name" />
+
+	<br>
+
+	<label for="lastName">Last Name: </label>
+	<input type="text" id="lastName" tabindex="2" name="lastName"  />
+
+	<br>
+
+	<label for="age">Age: </label>
+	<input name="age" type="number" tabindex="3" min="1" max="100" id="age" />
+
+	<br>
+
+	<label for="favoriteColor">Favorite color:</label>
+	<select name="favoriteColor" tabindex="4" id="favoriteColor">
+		<option value="burgundy">Red</option>
+		<option value="emerald-green">Green</option>
+		<option value="aqua">Blue</option>
+	</select>
+
+	<br>
+
+	<label for="gender">Gender:</label>
+			<input type="radio" name="gender" id="gender" value="M" tabindex="5">Male 
+			<input type="radio" name="gender" id="genderF" value="F" tabindex="6">Female
+			<input type="radio" name="gender" id="genderNA" value="NA" tabindex="7">Other
+	<br>
+
+	<label for="referralType1">How did you hear about us?</label>
+	<input type="checkbox" name="referralType" id="referralType1" value="friend" tabindex="8">From a friend
+	<input type="checkbox" name="referralType" id="referralType2" value="google" tabindex="9">Via Google
+	<input type="checkbox" name="referralType" id="referralType3" value="radio" tabindex="10">Radio ad
+
+	<br>
+
+	<label for="myPassword">Password:</label>
+	<input type="password" name="myPassword" tabindex="11" id="myPassword" />
+
+	<br>
+
+	<input type="submit" name="btnSave" value="Save Form" id="btnSave" />
+
+
+	<input type="hidden" name="employeeID" value="12345" id="employeeID" />
+
+</form>
+
+</body>
+</html>

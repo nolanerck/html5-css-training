@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive</title>
+
+	<style>
+		li
+		{
+			font-family: Verdana;
+		}
+
+		@media (min-width: 768px)
+		{
+			body
+			{
+				background-image: url(assets/green_day.jpg);
+			}
+
+			div
+			{
+				float: left;
+				background-color: lightblue;
+			}
+
+			#athletes
+			{
+				display: none;
+			}
+		}
+
+		@media(max-width: 767px)
+		{
+			div
+			{
+				background-color: lightgrey;
+			}
+
+			#movies
+			{
+				display: none;
+			}
+		}
+	</style>
+
+</head>
+<body>
+
+
+	<h1>My Pop Culture Stuff</h1>
+
+	<div id="music">
+		<h2>Music</h2>
+		<ul>
+			<li>Depeche Mode</li>
+			<li>David Bowie</li>
+			<li>Green Day</li>
+			<li>The Beatles</li>
+		</ul>
+	</div>
+
+
+	<div id="books">
+		<h2>Books</h2>
+		<ul>
+			<li>Holidays On Ice, David Sedaris</li>
+			<li>It, Stephen King</li>
+			<li>Harry Potter, JK Rowling</li>
+		</ul>
+	</div>
+
+	<div id="movies">
+		<h2>Movies</h2>
+		<ul>
+			<li>Top Gun</li>
+			<li>Pretty In Pink</li>
+			<li>Sneakers</li>
+			<li>Some Kind of Wonderful</li>
+		</ul>
+	</div>
+
+	<div id="athletes">
+		<h2>Athletes</h2>
+		<ul>
+			<li>Tony Hawk</li>
+			<li>Chaz Ortiz</li>
+			<li>Stacy Peralta</li>
+			<li>Rodney Mullen</li>
+		</ul>
+	</div>
+
+</body>
+</html>

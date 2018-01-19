@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Menu CSS</title>
+
+	<style>
+		#site-nav
+		{
+			list-style-type: none;
+		}
+
+		#site-nav li
+		{
+			font-family: Courier;
+			float: left;
+		}
+
+		#site-nav li a
+		{
+			padding-left: 10px;
+			padding-right: 10px;
+			text-decoration: none;
+		}
+
+		#site-nav li a:hover
+		{
+			text-decoration: underline;
+			font-weight: bold;
+		}
+
+		.clearfix
+		{
+			float: none;
+		}
+
+		.page-content
+		{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+
+
+<ul id="site-nav">
+	<li><a href="">Music</a></li> 
+	<li><a href="">Movies</a></li>
+	<li><a href="">Books</a></li>
+	<li><a href="">About Us</a></li>
+</ul>
+
+<br class="clearfix">
+
+<h2>Pop Culture Website</h2>
+<p>Welcome to our pop culture site where we discuss music, movies and books.</p>
+
+<div id="music" class="page-content">
+	<h2>Music Groups</h2>
+	<ul>
+		<li>Depeche Mode</li>
+		<li>Green Day</li>
+		<li>Erasure</li>
+	</ul>
+</div>
+
+<div id="movies" class="page-content">
+	<h2>Movies</h2>
+	<ul>
+		<li>Top Gun</li>
+		<li>Rounders</li>
+		<li>Sneakers</li>
+	</ul>
+</div>
+
+<div id="books" class="page-content">
+	<h2>Books</h2>
+	<ul>
+		<li>Harry Potter</li>
+		<li>Turtles All The Way Down</li>
+		<li>The Fault In Our Stars</li>
+	</ul>
+</div>
+
+<div id="about-us" class="page-content">
+	<p>Pop Culture App 1.0, built by BAVC students!</p>
+</div>
+
+</body>
+</html>
